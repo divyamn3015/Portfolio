@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[#1a1a1a] w-full h-auto '>
+      <div className='bg-gray-700 w-full h-auto '>
         {/* <Parallex/> */}
         <Snowfall  style={{
         position: 'fixed',

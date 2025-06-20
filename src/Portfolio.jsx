@@ -179,7 +179,7 @@ const Portfolio = () => {
         <a href="#contact">Contact</a>
       </div>
       {/* Profile */}
-      <div className="flex flex-col md:flex-row items-center justify-center w-full  p-5 md:p-20 font-semibold gap-[10%] xl:gap-[20%] section1">
+      <div className="flex flex-col md:flex-row items-center justify-around w-full  p-5 md:p-20 font-semibold gap-[10%] xl:gap-[20%] section1">
         <div className="flex flex-col gap-3 ">
           <h1 className="flex gap-2 text-2xl xl:text-4xl">
             I'M{" "}
@@ -197,7 +197,7 @@ const Portfolio = () => {
         </div>
         <div className="flex gap-2">
           <div>
-            <img src={image1} alt="" className="" />
+            <img src={image1} alt="" className="rounded-lg" />
           </div>
           <div className="flex flex-col gap-5 justify-end">
             <div className="w-1 h-28 bg-orange-400"></div>
